@@ -80,7 +80,7 @@ cuyo valor es un array con ingredientes. */
 
 pizzas.forEach ((pizza) => {
   console.log (`La ${pizza.nombre} tiene los siguientes ingredientes:`);
-  pizza.ingredientes.forEach((pizza) => {
-    console.log (pizza);
+  pizza.ingredientes.forEach((ingrediente) => {
+    console.log (ingrediente);
   });
 });
